@@ -87,6 +87,21 @@ footer{
 
 }
 
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+.cubiki{
+    width: 500px;
+    height: 300px;
+}
+
+.zaycev{
+    color: rgb(47, 171, 101);
+    font-size: 30px;
+}
+
 .link{
     color: rgb(47, 171, 101); 
     font-size: 30px;
@@ -102,4 +117,25 @@ a{
 
 .start__link{
     color: #fff;
+}
+
+.yt__div{
+    background: url(./yt.png) no-repeat ;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.yt__link{
+    font-size: 50px;
+    color: rgb(30, 109, 64);
+
+}
+
+.yt__div:hover{
+    color: red;
 }
