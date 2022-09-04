@@ -19,7 +19,7 @@ footer{
 }
 
 .yt__link{
-    font-size: 8px;
+    font-size: 16px;
 
 }
 .about{
@@ -34,11 +34,14 @@ footer{
 
 .yt{
     flex-direction: column;
-    height: 450px;
+    height: 200px;
+    margin: 0px;
+    padding: 0;
 }
 .yt__div{
     width: 100%;
     height: 150px;
+    margin: 0;
     background-size: cover;
 }
 
@@ -49,5 +52,8 @@ footer{
 
 .me{
     font-size: 8px;
+}
+.yyy{
+    margin: 0;
 }
 }
