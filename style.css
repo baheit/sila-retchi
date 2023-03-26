@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.link-point{
+    position: absolute;
+    top: -20px;
+}
+
+header{
+    background-color: rgb(21, 204, 218);
+    height: 100px;
+    font-size: 33px;
+    color: rgb(54, 139, 145);
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.img{
+    width: 300px;
+}
+
+.text{
+    position: relative;
+    color: rgb(10, 76, 82);
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+main{
+    background-image: url(https://phonoteka.org/uploads/posts/2022-09/1663657419_4-phonoteka-org-p-fon-rdsh-dlya-prezentatsii-vkontakte-5.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.yt{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh
+}
+
+.yyy{
+    font-size: 50px;
+}
+
+.sss{
+    width: 500px;
+}
+
+.sss:hover{
+    width: 600px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+.social{
+     text-align: center;
+     margin-bottom: 20px;
+}
+
+footer{
+    background-color: rgb(21, 204, 218);
+    color: #fff;
+    height: 100px;
+    
+}
+
+.nav{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.me{
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+.cubiki{
+    width: 500px;
+    height: 300px;
+}
+
+.zaycev{
+    color: rgb(54, 139, 145);
+    font-size: 30px;
+}
+
+.link{
+    color: rgb(41, 157, 165); 
+    font-size: 30px;
+}
+
+.nav__item{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.start__link{
+    color: rgb(54, 139, 145);
+}
+
+.yt__div{
+    background: url(./img/yt.png) no-repeat ;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.yt__link{
+    font-size: 50px;
+    color: rgb(6, 46, 49);
+
+}
+
+.yt__div:hover{
+    color: red;
+}
